@@ -71,3 +71,12 @@ m = 8             # Knapsack capacity
 n = len(P)        # Number of items
 
 knapSack_dp(m, W, P, n)
+
+# --- ADD THESE LINES ---
+print("\n--- 📊 Complexity Analysis ---")
+print("Full (un-simplified) Time: O(n*m + n)")
+print("Full (un-simplified) Space: O(n*m + n)")
+print("\nFinal (dominant) Time: O(n*m)")
+print("Final (dominant) Space: O(n*m)")
+print("(where n = number of items, m = knapsack capacity)")
+    # -----------------------
