@@ -44,7 +44,16 @@ def main():
 
     print("Maximum profit:", value)
     print("Weight filled:", filled)
-    print("Items selected:", ", ".join(items))
+    print("Items selected:", ", ".json(items))
+
+    # --- ADD THESE LINES ---
+    print("\n--- 📊 Complexity Analysis (for this code) ---")
+    print("Full (un-simplified) Time: O(n^2 + n)")
+    print("Full (un-simplified) Space: O(n + n)")
+    print("\nFinal (dominant) Time: O(n^2)")
+    print("Final (dominant) Space: O(n)")
+    print("(where n = number of items)")
+    # -----------------------
 
 if __name__ == "__main__":
     main()

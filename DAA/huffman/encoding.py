@@ -57,3 +57,11 @@ if __name__ == "__main__":
     huffman_encoding(text)
 
     # abacabad
+    # --- ADD THESE LINES ---
+    print("\n--- 📊 Complexity Analysis (Detailed) ---")
+    print("Full (un-simplified) Time: O(n + k + k*log(k) + k^2)")
+    print("Full (un-simplified) Space: O(k + k^2)")
+    print("\nFinal (dominant) Time: O(n + k^2)")
+    print("Final (dominant) Space: O(k^2)")
+    print("(where n = text length, k = unique characters)")
+    # -----------------------

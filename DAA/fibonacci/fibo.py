@@ -54,8 +54,32 @@ def main():
     print("Non-Recursive Time Complexity: O(n)")
     print("Non-Recursive Space Complexity: O(1)")
 
+        # --- ADD/REPLACE THESE LINES ---
+    print("\n\n--- 📊 Complexity Analysis ---")
+    
+    print("\n--- Non-Recursive (Iterative) ---")
+    print("Full (un-simplified) Time: O(n)")
+    print("Full (un-simplified) Space: O(1)")
+    print("Final (dominant) Time: O(n)")
+    print("Final (dominant) Space: O(1)")
+
+    print("\n--- Recursive (as used in main) ---")
+    print("Full (un-simplified) Time: O(2^0 + 2^1 + ... + 2^(n-1))")
+    print("Full (un-simplified) Space: O(n) (for max stack depth)")
+    print("Final (dominant) Time: O(2^n)")
+    print("Final (dominant) Space: O(n)")
+    
+    print("\n--- Counts & Timers ---")
+   # print(f"Recursive Time Taken: {time_recursive:.2f} microseconds")
+    # print(f"Non-Recursive Time Taken: {time_non_recursive:.2f} microseconds")
+    print(f"Recursive Steps (function calls): {recursive_count}")
+    print(f"Non-Recursive Steps (loop iterations): {non_recursive_count}")
+    # -----------------------------------
+
+
     print(f"Recursive Steps: {recursive_count}")
     print(f"Non-Recursive Steps: {non_recursive_count}")
 
 if __name__ == "__main__":
     main()
+

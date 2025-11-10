@@ -93,4 +93,13 @@ def n_queens():
 
 if __name__ == "__main__":
     n_queens()
+
+    # --- ADD THESE LINES ---
+    print("\n--- 📊 Complexity Analysis (for this code) ---")
+    print("Full (un-simplified) Time: O(N^2 * N!)")
+    print("Full (un-simplified) Space: O(N^2 + N)")
+    print("\nFinal (dominant) Time: O(N^2 * N!)")
+    print("Final (dominant) Space: O(N^2)")
+    print("(where N = board size)")
+    # -----------------------
   
